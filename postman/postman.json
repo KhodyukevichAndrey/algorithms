@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "5cef9040-3016-4068-807e-c7f5f27a392b",
+		"name": "AlgorithmColl",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29023708"
+	},
+	"item": [
+		{
+			"name": "twoSum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/algorithms/twoSum?nums=2,7,3,5,6,8&target=9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"algorithms",
+						"twoSum"
+					],
+					"query": [
+						{
+							"key": "nums",
+							"value": "2,7,3,5,6,8"
+						},
+						{
+							"key": "target",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
