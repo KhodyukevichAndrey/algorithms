@@ -23,4 +23,14 @@ public class EasyAlgorithmController {
                                                    @RequestParam(name = "target") int target) {
         return ars.findSumsForTarget(nums, target);
     }
+
+    @GetMapping("/isPalindrome")
+    public boolean isPalindrome(@RequestParam(name = "number") long number) {
+        return ars.isPalindrome(number);
+    }
+
+    @GetMapping("isContainsDuplicate")
+    public boolean isContainsDuplicate(@RequestParam(name = "nums") int[] nums) {
+        return ars.isContainsDuplicate(nums);
+    }
 }

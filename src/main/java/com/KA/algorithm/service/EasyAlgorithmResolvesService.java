@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -29,5 +30,26 @@ public class EasyAlgorithmResolvesService {
         }
 
         return solution;
+    }
+
+    public boolean isPalindrome(long number) {
+        String num = String.valueOf(number);
+        int length = num.length();
+
+        for (int i = 0; i < (length / 2); i++) {
+            if (num.charAt(i) != num.charAt(length - i - 1)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public boolean isContainsDuplicate(int[] nums) {
+        Set<Integer> numbers = Arrays.stream(nums)
+                .boxed()
+                .collect(Collectors.toCollection(HashSet::new));
+
+        return !(nums.length == numbers.size());
     }
 }

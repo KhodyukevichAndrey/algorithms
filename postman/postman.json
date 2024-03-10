@@ -35,6 +35,58 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "isPalindrome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/algorithms/isPalindrome?number=364879978463",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"algorithms",
+						"isPalindrome"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "364879978463"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "isContainsDuplicate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/algorithms/isContainsDuplicate?nums=0,2,3,5,7,9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"algorithms",
+						"isContainsDuplicate"
+					],
+					"query": [
+						{
+							"key": "nums",
+							"value": "0,2,3,5,7,9"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
