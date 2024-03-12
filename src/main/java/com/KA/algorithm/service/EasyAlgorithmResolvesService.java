@@ -1,13 +1,11 @@
 package com.KA.algorithm.service;
 
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
-@RequiredArgsConstructor
 
 public class EasyAlgorithmResolvesService {
 
@@ -52,4 +50,6 @@ public class EasyAlgorithmResolvesService {
 
         return !(nums.length == numbers.size());
     }
+
+
 }
