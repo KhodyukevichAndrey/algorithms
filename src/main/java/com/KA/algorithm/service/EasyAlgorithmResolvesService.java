@@ -6,7 +6,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
-
 public class EasyAlgorithmResolvesService {
 
     public Map<Integer, Integer> findSumsForTarget(int[] nums, int target) {

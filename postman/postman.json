@@ -7,86 +7,104 @@
 	},
 	"item": [
 		{
-			"name": "twoSum",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:8080/algorithms/twoSum?nums=2,7,3,5,6,8&target=9",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"algorithms",
-						"twoSum"
-					],
-					"query": [
-						{
-							"key": "nums",
-							"value": "2,7,3,5,6,8"
-						},
-						{
-							"key": "target",
-							"value": "9"
+			"name": "Easy",
+			"item": [
+				{
+					"name": "twoSum",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/algorithms/twoSum?nums=2,7,3,5,6,8&target=9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"algorithms",
+								"twoSum"
+							],
+							"query": [
+								{
+									"key": "nums",
+									"value": "2,7,3,5,6,8"
+								},
+								{
+									"key": "target",
+									"value": "9"
+								}
+							]
 						}
-					]
+					},
+					"response": []
+				},
+				{
+					"name": "isPalindrome",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/algorithms/isPalindrome?number=364879978463",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"algorithms",
+								"isPalindrome"
+							],
+							"query": [
+								{
+									"key": "number",
+									"value": "364879978463"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "isContainsDuplicate",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/algorithms/isContainsDuplicate?nums=0,2,3,5,7,9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"algorithms",
+								"isContainsDuplicate"
+							],
+							"query": [
+								{
+									"key": "nums",
+									"value": "0,2,3,5,7,9"
+								}
+							]
+						}
+					},
+					"response": []
 				}
-			},
-			"response": []
+			]
 		},
 		{
-			"name": "isPalindrome",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:8080/algorithms/isPalindrome?number=364879978463",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"algorithms",
-						"isPalindrome"
-					],
-					"query": [
-						{
-							"key": "number",
-							"value": "364879978463"
-						}
-					]
+			"name": "Medium",
+			"item": [
+				{
+					"name": "longestSubstring",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
-			},
-			"response": []
-		},
-		{
-			"name": "isContainsDuplicate",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:8080/algorithms/isContainsDuplicate?nums=0,2,3,5,7,9",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"algorithms",
-						"isContainsDuplicate"
-					],
-					"query": [
-						{
-							"key": "nums",
-							"value": "0,2,3,5,7,9"
-						}
-					]
-				}
-			},
-			"response": []
+			]
 		}
 	]
 }
