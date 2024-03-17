@@ -17,4 +17,9 @@ public class MediumAlgorithmController {
     public int getLongestSizeSubstring(@RequestParam(name = "word") String word) {
         return service.lengthOfLongestSubstring(word);
     }
+
+    @GetMapping("/longestSubstringPalindromic")
+    public int getLongestSubstringPalindromic(@RequestParam(name = "word") String word) {
+        return service.lengthOfLongestPalindromic(word);
+    }
 }

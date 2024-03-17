@@ -100,7 +100,51 @@
 					"name": "longestSubstring",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/mediumAlgorithm/substring?word=civilization",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mediumAlgorithm",
+								"substring"
+							],
+							"query": [
+								{
+									"key": "word",
+									"value": "civilization"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LongestPalindromicSubstring",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/mediumAlgorithm/longestSubstringPalindromic?word=iciicization",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mediumAlgorithm",
+								"longestSubstringPalindromic"
+							],
+							"query": [
+								{
+									"key": "word",
+									"value": "iciicization"
+								}
+							]
+						}
 					},
 					"response": []
 				}
