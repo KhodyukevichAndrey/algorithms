@@ -90,6 +90,32 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "reversedInt",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/algorithms/reversedInt?number=123452675",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"algorithms",
+								"reversedInt"
+							],
+							"query": [
+								{
+									"key": "number",
+									"value": "123452675"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},

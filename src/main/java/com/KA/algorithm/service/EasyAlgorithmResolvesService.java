@@ -50,5 +50,16 @@ public class EasyAlgorithmResolvesService {
         return !(nums.length == numbers.size());
     }
 
+    public int reverseInteger(int num) {
+        String nums = String.valueOf(num);
+        StringBuilder builder = new StringBuilder();
 
+        for (int i = nums.length() - 1; i >= 0; i--) {
+            builder.append(nums.charAt(i));
+        }
+
+        String reversed = builder.toString();
+
+        return Integer.parseInt(reversed);
+    }
 }

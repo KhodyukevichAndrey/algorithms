@@ -27,8 +27,13 @@ public class EasyAlgorithmController {
         return ars.isPalindrome(number);
     }
 
-    @GetMapping("isContainsDuplicate")
+    @GetMapping("/isContainsDuplicate")
     public boolean isContainsDuplicate(@RequestParam(name = "nums") int[] nums) {
         return ars.isContainsDuplicate(nums);
+    }
+
+    @GetMapping("/reversedInt")
+    public int getReversedInt (@RequestParam(name = "number") int number) {
+        return ars.reverseInteger(number);
     }
 }
