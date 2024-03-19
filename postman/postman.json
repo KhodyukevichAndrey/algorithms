@@ -116,6 +116,36 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "searchInsertPos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/algorithms/searchInsertPos?nums=0,1,2,7,9,12,15,16&target=7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"algorithms",
+								"searchInsertPos"
+							],
+							"query": [
+								{
+									"key": "nums",
+									"value": "0,1,2,7,9,12,15,16"
+								},
+								{
+									"key": "target",
+									"value": "7"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},

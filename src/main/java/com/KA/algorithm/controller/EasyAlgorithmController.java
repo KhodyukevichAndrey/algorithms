@@ -33,7 +33,13 @@ public class EasyAlgorithmController {
     }
 
     @GetMapping("/reversedInt")
-    public int getReversedInt (@RequestParam(name = "number") int number) {
+    public int getReversedInt(@RequestParam(name = "number") int number) {
         return ars.reverseInteger(number);
+    }
+
+    @GetMapping("/searchInsertPos")
+    public int getInsertPos(@RequestParam(name = "nums") int[] nums,
+                            @RequestParam(name = "target") int target) {
+        return ars.searchInsertPosition(nums, target);
     }
 }

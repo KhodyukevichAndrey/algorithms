@@ -62,4 +62,28 @@ public class EasyAlgorithmResolvesService {
 
         return Integer.parseInt(reversed);
     }
+
+    public int searchInsertPosition(int[] array, int target) {
+        int start = 0;
+        int end = array.length;
+
+        if (array[start] > target) {
+            return 0;
+        } else if (array[end - 1] < target) {
+            return end;
+        }
+
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+
+            if(array[mid] < target) {
+                start = mid + 1;
+            } else if (array[mid] == target) {
+                return mid;
+            } else {
+                end = mid - 1;
+            }
+        }
+        return start;
+    }
 }
