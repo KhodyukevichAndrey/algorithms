@@ -1,4 +1,4 @@
-package com.KA.algorithm.patterns.singleton;
+package com.KA.algorithm.patterns.creational.singleton;
 
 public class ProgramLogger { // синхронайзд для многопоточных программ
     private static ProgramLogger programLogger;

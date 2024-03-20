@@ -1,4 +1,4 @@
-package com.KA.algorithm.patterns.prototype;
+package com.KA.algorithm.patterns.creational.prototype;
 
 public class VersionControlRunner {
     public static void main(String[] args) {

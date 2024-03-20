@@ -1,4 +1,4 @@
-package com.KA.algorithm.patterns.prototype;
+package com.KA.algorithm.patterns.creational.prototype;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

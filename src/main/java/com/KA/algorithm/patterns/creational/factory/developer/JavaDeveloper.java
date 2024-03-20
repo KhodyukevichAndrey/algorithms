@@ -1,4 +1,4 @@
-package com.KA.algorithm.patterns.factory.developer;
+package com.KA.algorithm.patterns.creational.factory.developer;
 
 public class JavaDeveloper implements Developer{
     @Override

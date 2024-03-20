@@ -1,9 +1,9 @@
-package com.KA.algorithm.patterns.factory;
+package com.KA.algorithm.patterns.creational.factory;
 
-import com.KA.algorithm.patterns.factory.developer.Developer;
-import com.KA.algorithm.patterns.factory.developerfactory.CppDeveloperFactory;
-import com.KA.algorithm.patterns.factory.developerfactory.DeveloperFactory;
-import com.KA.algorithm.patterns.factory.developerfactory.JavaDeveloperFactory;
+import com.KA.algorithm.patterns.creational.factory.developer.Developer;
+import com.KA.algorithm.patterns.creational.factory.developerfactory.CppDeveloperFactory;
+import com.KA.algorithm.patterns.creational.factory.developerfactory.DeveloperFactory;
+import com.KA.algorithm.patterns.creational.factory.developerfactory.JavaDeveloperFactory;
 
 public class Program {
     public static void main(String[] args) {

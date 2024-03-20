@@ -1,4 +1,4 @@
-package com.KA.algorithm.patterns.builder;
+package com.KA.algorithm.patterns.creational.builder;
 
 public class EnterpriseCardWebsiteBuilder extends WebsiteBuilder {
     @Override
