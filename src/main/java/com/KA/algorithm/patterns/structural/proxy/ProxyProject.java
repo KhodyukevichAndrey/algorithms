@@ -1,5 +1,6 @@
 package com.KA.algorithm.patterns.structural.proxy;
 
+
 public class ProxyProject implements Project {
     private String url;
     private RealProject realProject;
